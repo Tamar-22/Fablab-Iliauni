@@ -1,0 +1,51 @@
+@media (max-width:1250px) {
+    .nav-flex{
+        flex-direction: column;
+        display: none;
+    }
+    /* .burger-icone i{
+        display: block;  
+    } */
+    .fa-bars{
+        display: block;
+    }
+      .fablog-container{
+        padding: 40px 30px;
+    }
+    
+}
+@media (max-width:1180px) {
+    .carousel-slider li img {
+        max-width: 200px;
+        height: 120px;
+    }
+    .fablog-container{
+        padding: 40px 30px;
+        gap: 15px;
+    }
+    .fablog-container,.fablog-image :nth-child(3), .fablog-container,.fablog-image :nth-child(3){
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:980px) {
+    .carousel-slider ul{
+        gap: 15px;
+    }
+    .carousel-slider li img {
+        max-width: 170px;
+        height: 100px;
+    }
+    
+}
+@media (max-width:725px) {
+    .carousel-slider li img {
+        max-width: 120px;
+        height: 70px;
+    }
+    .carousel-slider{
+        padding: 0px 25px
+    }
+    
+}
