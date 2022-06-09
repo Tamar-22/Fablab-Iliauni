@@ -1,0 +1,35 @@
+@font-face{font-family:'BPG Glaho';
+    src:url(../fonts/bpg-glaho-webfont.eot);
+    src:url(../fonts/bpg-glaho-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/bpg-glaho-webfont.woff2) format('woff2'),
+    url(../fonts/bpg-glaho-webfont.woff) format('woff'),
+    url(../fonts/bpg-glaho-webfont.ttf) format('truetype'),
+    url(../fonts/bpg-glaho-webfont.svg#bpg_glahoregular) format('svg')}
+
+    @font-face {
+        font-family: 'Lato';
+        src: url('../fonts/Lato-Regular.eot');
+        src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Lato-Regular.woff2') format('woff2'),
+            url('../fonts/Lato-Regular.woff') format('woff'),
+            url('../fonts/Lato-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../fonts/FiraGO-Regular.eot');
+        src: url('../fonts/FiraGO-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/FiraGO-Regular.woff2') format('woff2'),
+            url('../fonts/FiraGO-Regular.woff') format('woff'),
+            url('../fonts/FiraGO-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    
+    

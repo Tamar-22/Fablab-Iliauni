@@ -1,14 +1,4 @@
 @media (max-width:1250px) {
-    .nav-flex{
-        flex-direction: column;
-        display: none;
-    }
-    /* .burger-icone i{
-        display: block;  
-    } */
-    .fa-bars{
-        display: block;
-    }
       .fablog-container{
         padding: 40px 30px;
     }
@@ -30,22 +20,50 @@
     
 }
 @media (max-width:980px) {
-    .carousel-slider ul{
-        gap: 15px;
+    .carousel-section{
+        height: 250px;
     }
-    .carousel-slider li img {
-        max-width: 170px;
-        height: 100px;
+    .menu-block{
+        flex-direction: column;
+        display: none;
+        margin-top: 10px;
+
     }
-    
-}
-@media (max-width:725px) {
-    .carousel-slider li img {
-        max-width: 120px;
-        height: 70px;
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
     }
-    .carousel-slider{
-        padding: 0px 25px
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .menu-block  li{
+        background-color: #b0c2ce;
+    }
+    .fa-bars{
+        display: block;
+    }
+    #service-menu, #news-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    #service-dropdown, #news-dropdown{
+        left: 190px;
+        top: 0px;
+        
+    }
+    #service-dropdown.active, #news-dropdown.active{
+        display: flex;
+    }
+    .search-form{
+        display: none;
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .p-slider{
+        width: 80%;
     }
     
 }
