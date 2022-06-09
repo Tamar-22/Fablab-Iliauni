@@ -89,7 +89,7 @@ const burgerClose =()=>{
 burgerNavigationOpen.addEventListener("click", burgerOpen)
 burgerNavigationClose.addEventListener("click", burgerClose)
 
-let array = []
+
 let sliderMain = document.getElementById("slider-main")
 let child = sliderMain.getElementsByClassName("child")
 function moveRight(){
