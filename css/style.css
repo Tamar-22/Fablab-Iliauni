@@ -111,7 +111,8 @@ nav{
     text-align: center;
     position: absolute;
     bottom: 10px;
-    left: 50%;
+    left: 45%;
+   
 }
   
 .active1, .dot:hover {
@@ -128,12 +129,12 @@ nav{
 .carusel-images{
     width: 100%;
     position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .carusel-images img{
     width: 100%;
     height: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 .prev{
     position: absolute;
@@ -156,6 +157,7 @@ main{
     max-width: 1380px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* fablog-section */
