@@ -335,12 +335,18 @@ main{
     flex-direction: column;
     padding-bottom:40px;
     position: relative;
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: 0.2s ease-in-out;
 }
 .child img{
     width: 270px;
     height: 200px;
     padding: 30px 10px 0px 10px;
     position: relative;
+}
+.child img:hover{
+    opacity: 0.3;
 }
 /* .child h3::after{
     content: "";
@@ -374,6 +380,7 @@ main{
     opacity: 0;
     
 }
+
 .child:hover .button{
     opacity: 1;
 }
